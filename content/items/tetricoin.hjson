@@ -1,0 +1,5 @@
+type: material
+name: Tetricoin
+description: Very expensive cryptocurrency
+cost: 5
+color: ffec10c

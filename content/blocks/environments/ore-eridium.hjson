@@ -1,0 +1,6 @@
+type: OreBlock
+itemDrop: eridium
+oreDefault: true
+oreThreshold: 0.92
+oreScale: 38
+playerUnmineable: true

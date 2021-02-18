@@ -1,0 +1,21 @@
+name: Big Mechas Factory
+type: UnitFactory
+size: 3
+produceTime: 750
+unitType: crawler
+maxSpawn: 1
+consumes: {
+	power: 3
+	items: {
+		items: [
+			tetricoin/50
+		]
+	}
+}
+requirements: [
+	titanium/1500
+	silicon/1000
+	thorium/500
+	eridium/250
+]
+category: units

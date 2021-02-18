@@ -1,0 +1,6 @@
+type: material
+name: Eridium
+description: A powerful crystal.
+hardness: 5.5
+cost: 5
+color: dcd16b
