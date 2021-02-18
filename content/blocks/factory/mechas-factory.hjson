@@ -1,17 +1,40 @@
 name: Big Mechas Factory
 type: UnitFactory
 size: 3
-produceTime: 750
-unitType: crawler
 maxSpawn: 1
-consumes: {
-	power: 3
-	items: {
-		items: [
+consumes:{
+	power: 8
+}
+plans: [
+	{
+		unit: reign
+		requirements: [
 			tetricoin/50
 		]
+		time: 2000
 	}
-}
+	{
+		unit: toxopid
+		requirements: [
+			tetricoin/75
+		] 
+		time: 2500
+	}
+	{
+		unit: eclipse
+		requirements: [
+			tetricoin/75
+		]
+		time: 2500
+	}
+	{
+		unit: oct
+		requirements: [
+			tetricoin/75
+		]
+		time: 2500
+	}
+]
 requirements: [
 	titanium/1500
 	silicon/1000

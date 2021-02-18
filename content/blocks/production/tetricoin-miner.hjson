@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Tetricoin Miner
 description: Mine Tetricoin with a lot of power
 size: 1
-craftTime: 750
+craftTime: 800
 update: true
 hasItems: true
 hasLiquids: true
@@ -12,6 +12,7 @@ consumes: {
 	liquid: {
 		liquid: water
 		amount: 0.2
+		boost: false
 	}
 }
 outputItem: tetricoin/1
