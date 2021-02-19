@@ -1,9 +1,9 @@
 type: conveyor
-name: Eridium conveyor
+name: Eridium Converyor
 description: Insanely fast conveyor.
 speed: 0.2
 requirements: [
-  eridium/1
+	eridium/1
 ]
 category: distribution
 research: titanium-conveyor
